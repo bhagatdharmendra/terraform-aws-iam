@@ -10,3 +10,7 @@ variable "allprivate_ports" {
     description = "private-subnet-only"
   
 }
+variable "vpc_cidr" {
+  type = string
+  
+}
