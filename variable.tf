@@ -3,3 +3,10 @@ variable "newuser" {
     default = ["sonu","jack","jone"]
   
 }
+variable "access_key " {
+  
+}
+
+variable "secret_key " {
+  
+}
