@@ -1,6 +1,13 @@
 provider "aws" {
   access_key = var.access_key 
   secret_key = var.secret_key
+  region = "ap-south-1"
+}
+variable "access_key" {
+  
+}
+variable "secret_key" {
+  
 }
 resource "aws_iam_user" "newuser" {
   count = length(var.newuser)

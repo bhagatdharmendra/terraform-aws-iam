@@ -3,10 +3,6 @@ variable "newuser" {
     default = ["sonu","jack","jone"]
   
 }
-variable "access_key " {
-  type = string
-}
-
-variable "secret_key " {
-  type = string
+variable "vpc_cidr" {
+  
 }
